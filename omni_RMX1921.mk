@@ -29,11 +29,11 @@ PRODUCT_BRAND := Realme
 PRODUCT_MODEL := RMX1921
 PRODUCT_MANUFACTURER := Realme
 
-# HACK: Set vendor patch level
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.vendor.build.security_patch=2099-12-31
-
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=RMX1921 \
     BUILD_PRODUCT=RMX1921 \
     TARGET_DEVICE=RMX1921
+
+# HACK: Set vendor patch level
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.build.security_patch=2099-12-31
