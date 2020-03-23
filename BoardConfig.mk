@@ -116,6 +116,10 @@ TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel0-backlight/brightness"
 TW_MAX_BRIGHTNESS := 1023
 TW_DEFAULT_BRIGHTNESS := 500
+# Adjust for notch (Needs to be commented for orangefox builds)
+TW_Y_OFFSET := 80 
+TW_H_OFFSET := -80
+#
 TW_NO_SCREEN_BLANK := true
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
