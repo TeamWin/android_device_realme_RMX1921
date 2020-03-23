@@ -101,6 +101,8 @@ AB_OTA_UPDATER := false
 # Crypto
 TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_FBE := true
+TARGET_CRYPTFS_HW_PATH := vendor/qcom/opensource/commonsys/cryptfs_hw
+TARGET_HW_DISK_ENCRYPTION := true
 
 # TWRP specific build flags
 TW_THEME := portrait_hdpi
